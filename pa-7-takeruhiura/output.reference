@@ -1,0 +1,57 @@
+
+Testing the ArrayList
+Test case 1: The add methods in the ArrayList
+[6 57 25 11 27 39 57 33]
+
+Test case 2: The equals method in the ArrayList
+[6 57 25 11 27 39 57 33] == [194 157 115 200 182 100 100] ? false
+[6 57 25 11 27 39 57 33] == [6 57 25 11 27 39 57 33] ? true
+
+Test case 3: The indexOf methods in the ArrayList
+Index of 57 = 1
+Index of 100 = -1
+Last index of 57 = 6
+Last index of 25 = 2
+
+Test case 4: The sort method in the ArrayList
+[6 11 25 27 33 39 57 57]
+
+Test case 5: The toArray method in the ArrayList
+[6 11 25 27 33 39 57 57 ]
+
+Test case 6: The addAll method in the ArrayList
+[6 11 25 27 33 39 57 57 194 157 115 200 182 100 100]
+
+Testing the LinkedList
+Test case 7: The add methods in the LinkedList
+[194 157 115 200 182 100 100]
+
+Test case 8: The equals method in the LinkedList
+[194 157 115 200 182 100 100] == [6 11 25 27 33 39 57 57 194 157 115 200 182 100 100] ? false
+[194 157 115 200 182 100 100] == [194 157 115 200 182 100 100] ? true
+
+Test case 9: The indexOf methods in the LinkedList
+Index of 300 = -1
+Index of 100 = 5
+Last index of 115 = 2
+Last index of 100 = 6
+
+Test case 10: The sort method in the LinkedList
+[100 100 115 157 182 194 200]
+
+Test case 11: The toArray method in the LinkedList
+[100 100 115 157 182 194 200 ]
+
+Test case 12: The get/set methods in the LinkedList
+Element at index 3 = 157
+Element at index 0 old value = 100, new value = 150
+[150 100 115 157 182 194 200]
+
+Test case 13: The remove methods in the LinkedList
+[100 115 157 182 194 200]
+[100 115 157 182 194]
+[100 157 182 194]
+[100 157 194]
+
+Test case 14: The addAll method in the LinkedList
+[100 157 194 6 11 25 27 33 39 57 57 194 157 115 200 182 100 100]
