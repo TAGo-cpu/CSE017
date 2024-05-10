@@ -1,0 +1,42 @@
+
+Test case 1: Create a new map
+New map created with 5 rows and 5 columns
+
+Test case 2: Print the map
+Lehigh Valley Map
+Tamaqua                 Lehighton               Danielsville            Liberty                   Hope                
+Kempton                 NorthHampton            Nazareth                Lopatcong                 Washington          
+Hamburg                 Allentown               Bethlehem               Easton                    Stewartsville       
+Bernville               Emmaus                  Hellertown              Milford                   Alexandria          
+Reading                 BoyerTown               Herleysville            Doylestown                New Hope            
+
+
+Test case 3: Find an element in the map (successful)
+Bethlehem found in Lehigh Valley map at position(2, 2)
+
+Test case 4: Find an element in the map (failed)
+Easttown not found in Lehigh Valley map
+
+Test case 5: Find an element at a position (successful)
+Danielsville is at the position(0,2) in the map
+
+Test case 6: Find an element at a position (row out of bounds)
+Invalid index for the row 8, length = 5
+
+Test case 7: Find an element at a position (col out of bounds)
+Invalid index for the column -2, length = 5
+
+Test case 8: Find a path (successful)
+Path found:  - NorthHampton - Nazareth - Lopatcong - Washington - Stewartsville - Alexandria
+
+Test case 9: Find a path (failed)
+No Path found from NewHope to Allentown
+
+Test case 10: Find the number of paths (successful)
+There are 5 possible paths from Tamaqua to Washington
+
+Test case 11: Find the number of paths (successful)
+There are 70 possible paths from Tamaqua to New Hope
+
+Test case 12: Find the number of paths (failed)
+There are no paths from Alexandria to Kempton

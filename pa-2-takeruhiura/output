@@ -1,0 +1,132 @@
+
+Test case 1: create a new catalog
+A new catalog was created with 0 titles
+
+Test case 2: read titles from the file
+22 titles read into myLibrary
+
+
+Test case 3: view all titles
+Call Number 	Title                              	Publisher                	Year 	#Copies	Author/Month   	ISBN/Issue	
+P-111-222-333	ACM Transactions on Algorithms     	ACM                      	2005 	5      	November       	2         
+P-222-333-111	IEEE Transactions Computation      	IEEE Computer Society    	1997 	1      	October        	3         
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2018 	10     	M. Savitch     	9876579310	
+P-222-222-222	IEEE Transactions on Computers     	IEEE Computer Society    	1952 	1      	September      	9         
+B-222-111-111	Data Structures in Java            	McGraw Hill              	2020 	5      	Brian Lang     	9878879310	
+B-222-111-000	Engineering Your Future            	Oxford                   	2020 	2      	William Oakes  	0190279265	
+B-222-111-110	Society, Ethics, and Technology    	Pearson                  	2016 	10     	Morton Winston 	1133943551	
+B-222-111-101	Systems Engineering and Analysis   	Prentice Hall            	2010 	2      	Scott Fogler   	0132217250	
+P-000-111-111	IEEE Transactions on Technologies  	IEEE Education Society   	2008 	1      	February       	6         
+P-111-000-110	IEEE Annals of History of Computing	IEEE                     	1979 	1      	November       	12        
+B-000-000-111	Introduction to C language         	Pearson                  	2018 	5      	J. Smith       	1103324551	
+P-111-111-111	IEEE Software                      	IEEE Computer Society    	1983 	1      	June           	3         
+B-333-333-333	Data Science                       	McGraw Hill              	2018 	5      	F. Franklin    	1122334455	
+P-111-111-222	IEEE Transactions on Fuzzy Systems 	IEEE Computer Society    	1993 	1      	June           	2         
+B-111-123-301	Computer Systems                   	Pearson                  	2016 	2      	Bryant         	0134092669	
+B-222-000-111	Introduction to C language         	Wiley                    	2016 	2      	J. Blanchard   	1203324661	
+B-111-321-111	Absolute C++                       	Pearson                  	2016 	5      	Walter Savitch 	0133970787	
+B-111-111-212	Java Concepts                      	Wiley                    	2008 	1      	Cay Horstmann  	0470105559	
+B-333-111-111	ThinkerToys                        	Ten Speed Press          	2006 	3      	M. Michalko    	1580087735	
+B-111-222-111	Computer Architecture              	Morgan Kaufmann          	2019 	2      	Hennessy       	0128119051	
+B-111-221-121	Problem Solving in C               	Pearson                  	2021 	8      	Hanly          	0134014898	
+B-777-777-777	Data Science                       	Pearson                  	2022 	5      	J. Duck        	0022774466	
+
+Test case 4: find title by call number (succesfull)
+Title found with call number B-111-111-111:
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2018 	10     	M. Savitch     	9876579310	
+
+Test case 5: find title by call number (fail)
+No title found with call number P-333-333-333
+
+Test case 6: find title by call number (invalid call number)
+Invalid Call number: B-333-333. Must be B|P-ddd-ddd-ddd
+
+Test case 7: find titles by title (one title found)
+One title found with the title: Computer Systems
+B-111-123-301	Computer Systems                   	Pearson                  	2016 	2      	Bryant         	0134092669	
+
+
+Test case 8: find titles by title (more than one title found)
+2 titles found with the title: Introduction to C language
+B-000-000-111	Introduction to C language         	Pearson                  	2018 	5      	J. Smith       	1103324551	
+B-222-000-111	Introduction to C language         	Wiley                    	2016 	2      	J. Blanchard   	1203324661	
+
+
+Test case 9: find titles by title (no title found)
+No titles found with the title: Introduction to Python
+
+
+Test case 10: find titles by year (one title found)
+One title found for the year 2021:
+B-111-221-121	Problem Solving in C               	Pearson                  	2021 	8      	Hanly          	0134014898	
+
+
+Test case 11: find titles by year (more than one title found)
+2 titles found for the year 2020:
+B-222-111-111	Data Structures in Java            	McGraw Hill              	2020 	5      	Brian Lang     	9878879310	
+B-222-111-000	Engineering Your Future            	Oxford                   	2020 	2      	William Oakes  	0190279265	
+
+
+Test case 12: find titles by year (no title found)
+No titles found for the year 2017
+
+
+Test case 13: sort the titles by year
+Call Number 	Title                              	Publisher                	Year 	#Copies	Author/Month   	ISBN/Issue	
+P-222-222-222	IEEE Transactions on Computers     	IEEE Computer Society    	1952 	1      	September      	9         
+P-111-000-110	IEEE Annals of History of Computing	IEEE                     	1979 	1      	November       	12        
+P-111-111-111	IEEE Software                      	IEEE Computer Society    	1983 	1      	June           	3         
+P-111-111-222	IEEE Transactions on Fuzzy Systems 	IEEE Computer Society    	1993 	1      	June           	2         
+P-222-333-111	IEEE Transactions Computation      	IEEE Computer Society    	1997 	1      	October        	3         
+P-111-222-333	ACM Transactions on Algorithms     	ACM                      	2005 	5      	November       	2         
+B-333-111-111	ThinkerToys                        	Ten Speed Press          	2006 	3      	M. Michalko    	1580087735	
+P-000-111-111	IEEE Transactions on Technologies  	IEEE Education Society   	2008 	1      	February       	6         
+B-111-111-212	Java Concepts                      	Wiley                    	2008 	1      	Cay Horstmann  	0470105559	
+B-222-111-101	Systems Engineering and Analysis   	Prentice Hall            	2010 	2      	Scott Fogler   	0132217250	
+B-222-111-110	Society, Ethics, and Technology    	Pearson                  	2016 	10     	Morton Winston 	1133943551	
+B-111-123-301	Computer Systems                   	Pearson                  	2016 	2      	Bryant         	0134092669	
+B-222-000-111	Introduction to C language         	Wiley                    	2016 	2      	J. Blanchard   	1203324661	
+B-111-321-111	Absolute C++                       	Pearson                  	2016 	5      	Walter Savitch 	0133970787	
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2018 	10     	M. Savitch     	9876579310	
+B-000-000-111	Introduction to C language         	Pearson                  	2018 	5      	J. Smith       	1103324551	
+B-333-333-333	Data Science                       	McGraw Hill              	2018 	5      	F. Franklin    	1122334455	
+B-111-222-111	Computer Architecture              	Morgan Kaufmann          	2019 	2      	Hennessy       	0128119051	
+B-222-111-111	Data Structures in Java            	McGraw Hill              	2020 	5      	Brian Lang     	9878879310	
+B-222-111-000	Engineering Your Future            	Oxford                   	2020 	2      	William Oakes  	0190279265	
+B-111-221-121	Problem Solving in C               	Pearson                  	2021 	8      	Hanly          	0134014898	
+B-777-777-777	Data Science                       	Pearson                  	2022 	5      	J. Duck        	0022774466	
+
+Test case 14: remove a title (successful)
+Title with call number B-333-333-333 found and removed successfully.
+Call Number 	Title                              	Publisher                	Year 	#Copies	Author/Month   	ISBN/Issue	
+P-222-222-222	IEEE Transactions on Computers     	IEEE Computer Society    	1952 	1      	September      	9         
+P-111-000-110	IEEE Annals of History of Computing	IEEE                     	1979 	1      	November       	12        
+P-111-111-111	IEEE Software                      	IEEE Computer Society    	1983 	1      	June           	3         
+P-111-111-222	IEEE Transactions on Fuzzy Systems 	IEEE Computer Society    	1993 	1      	June           	2         
+P-222-333-111	IEEE Transactions Computation      	IEEE Computer Society    	1997 	1      	October        	3         
+P-111-222-333	ACM Transactions on Algorithms     	ACM                      	2005 	5      	November       	2         
+B-333-111-111	ThinkerToys                        	Ten Speed Press          	2006 	3      	M. Michalko    	1580087735	
+P-000-111-111	IEEE Transactions on Technologies  	IEEE Education Society   	2008 	1      	February       	6         
+B-111-111-212	Java Concepts                      	Wiley                    	2008 	1      	Cay Horstmann  	0470105559	
+B-222-111-101	Systems Engineering and Analysis   	Prentice Hall            	2010 	2      	Scott Fogler   	0132217250	
+B-222-111-110	Society, Ethics, and Technology    	Pearson                  	2016 	10     	Morton Winston 	1133943551	
+B-111-123-301	Computer Systems                   	Pearson                  	2016 	2      	Bryant         	0134092669	
+B-222-000-111	Introduction to C language         	Wiley                    	2016 	2      	J. Blanchard   	1203324661	
+B-111-321-111	Absolute C++                       	Pearson                  	2016 	5      	Walter Savitch 	0133970787	
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2018 	10     	M. Savitch     	9876579310	
+B-000-000-111	Introduction to C language         	Pearson                  	2018 	5      	J. Smith       	1103324551	
+B-111-222-111	Computer Architecture              	Morgan Kaufmann          	2019 	2      	Hennessy       	0128119051	
+B-222-111-111	Data Structures in Java            	McGraw Hill              	2020 	5      	Brian Lang     	9878879310	
+B-222-111-000	Engineering Your Future            	Oxford                   	2020 	2      	William Oakes  	0190279265	
+B-111-221-121	Problem Solving in C               	Pearson                  	2021 	8      	Hanly          	0134014898	
+B-777-777-777	Data Science                       	Pearson                  	2022 	5      	J. Duck        	0022774466	
+
+Test case 15: remove a title (failed)
+Title with call number B-666-666-666 not found.
+
+Test case 16: remove a title (invalid call number)
+Invalid Call number: P-123. Must be B|P-ddd-ddd-ddd
+
+Test case 17: save titles to the text file
+21 titles saved to "titles.txt"
+21 titles read from "titles.txt"

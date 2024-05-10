@@ -1,0 +1,820 @@
+
+Test case 1: Sorted List created
+200 cities read from the file
+Albany                   NY     42.65258       -73.75623      
+Allentown                PA     40.61395       -75.47779      
+Anderson                 SC     34.50344       -82.65013      
+Ann Arbor                MI     42.27959       -83.73212      
+Antioch                  CA     38.00500       -121.80583     
+Athens                   GA     33.95000       -83.38333      
+Atlanta                  GA     33.75375       -84.38633      
+Auburn                   AL     32.60986       -85.48078      
+Auburn                   WA     47.30732       -122.22846     
+Aurora                   CO     39.71084       -104.81250     
+Austin                   TX     30.26667       -97.73333      
+Bartlett                 TN     35.20444       -89.87381      
+Bellevue                 WA     47.61038       -122.20068     
+Berkeley                 CA     37.87167       -122.27278     
+Beverly Hills            CA     34.07362       -118.40035     
+Binghamton               NY     42.09884       -75.92065      
+Birmingham               AL     33.54368       -86.77963      
+Bismarck                 ND     46.82591       -100.77828     
+Bloomington              MN     44.84080       -93.29828      
+Boise                    ID     43.61888       -116.21502     
+Boston                   MA     42.36115       -71.05708      
+Bridgeport               CT     41.18639       -73.19556      
+Burlington               VT     44.47588       -73.21207      
+Cambridge                MA     42.37361       -71.11056      
+Camilla                  GA     31.23129       -84.21046      
+Carthage                 MS     32.73264       -89.53618      
+Casas Adobes             AZ     32.31905       -111.00105     
+Castle Rock              CO     39.37491       -104.85386     
+Centreville              VA     38.84039       -77.42888      
+Charleston               WV     38.34982       -81.63262      
+Charleston               SC     32.78462       -79.94092      
+Charlotte                NC     35.22709       -80.84312      
+Cheyenne                 WY     41.16108       -104.80545     
+Colorado Springs         CO     38.84613       -104.80064     
+Columbia                 MO     38.95156       -92.32864      
+Columbus                 OH     39.98333       -82.98333      
+Columbus                 IN     39.20144       -85.92138      
+Columbus                 MS     33.49567       -88.42726      
+Concord                  NC     35.40875       -80.57951      
+Cooper City              FL     26.05731       -80.27171      
+Dallas                   TX     32.77917       -96.80889      
+Davenport                IA     41.54306       -90.59084      
+Dayton                   OH     39.75895       -84.19161      
+Dearborn Heights         MI     42.33698       -83.27326      
+Decatur                  AL     34.60382       -86.98504      
+Denver                   CO     39.74204       -104.99153     
+Des Plaines              IL     42.03336       -87.88340      
+Detroit                  MI     42.33143       -83.04575      
+Dover                    DE     39.16108       -75.52568      
+East Point               GA     33.67955       -84.43937      
+Eldorado Springs         CO     39.93212       -105.28164     
+Fall River               MA     41.69663       -71.14999      
+Fargo                    ND     46.87719       -96.78980      
+Franklin                 TN     35.92506       -86.86889      
+Garden City              MI     42.32557       -83.33093      
+Gastonia                 NC     35.25528       -81.18028      
+Green Bay                WI     44.51333       -88.01583      
+Greenville               NC     35.61266       -77.36636      
+Greenwich                CT     41.02705       -73.62007      
+Grifton                  NC     35.37266       -77.43746      
+Hamden                   CT     41.38583       -72.90424      
+Hampton                  VA     37.03495       -76.36012      
+Harrisburg               PA     40.26368       -76.89074      
+High Point               NC     35.97055       -79.99750      
+Highland Park            IL     42.19017       -87.78670      
+Hillsboro                OR     45.52290       -122.98983     
+Hoboken                  NJ     40.74526       -74.03478      
+Hoover                   AL     33.40575       -86.81155      
+Hot Springs              AR     34.49621       -93.05722      
+Houston                  TX     29.74991       -95.35842      
+Hugo                     MN     45.15997       -92.99334      
+Huntington               WV     38.41365       -82.44673      
+Huntsville               AL     34.73823       -86.60179      
+Indianapolis             IN     39.79100       -86.14800      
+Jackson                  MI     42.24578       -84.40597      
+Jacksonville             FL     30.33218       -81.65565      
+Jamestown                NY     42.09555       -79.23861      
+Jersey City              NJ     40.71907       -74.05055      
+Joliet                   IL     41.52056       -88.15056      
+Jonesboro                AR     35.83558       -90.70503      
+Kansas City              KS     39.10667       -94.67639      
+Kansas City              MO     39.09972       -94.57833      
+Kenosha                  WI     42.58808       -87.82290      
+Kingsport                TN     36.54844       -82.56182      
+Lafayette                IN     40.41670       -86.87529      
+Lakewood                 CO     39.71085       -105.08151     
+Lakewood                 WA     47.17176       -122.51846     
+Las Cruces               NM     32.34660       -106.78772     
+Las Cruces               NM     32.32660       -106.77544     
+Lexington                KY     38.04799       -84.50164      
+Lincoln                  NE     40.80686       -96.68168      
+London                   KY     37.12999       -84.08412      
+Long Beach               CA     33.77005       -118.19374     
+Louisville               KY     38.32873       -85.76477      
+Macon                    GA     32.83813       -83.63471      
+Madison                  WI     43.07305       -89.40123      
+Manhattan                KS     39.18361       -96.57167      
+Mannford                 OK     36.13341       -96.35445      
+Maryville                TN     35.76006       -83.96685      
+Memphis                  TN     35.11750       -89.97111      
+Meridian                 ID     43.61417       -116.39889     
+Meridian                 ID     43.61234       -116.39371     
+Miami                    FL     25.76168       -80.19179      
+Miami Gardens            FL     25.94212       -80.26992      
+Michigan City            IN     41.72354       -86.89928      
+Minneapolis              MN     44.98666       -93.25813      
+Mohave Valley            AZ     34.93306       -114.58885     
+Moscow                   ID     46.73171       -116.99994     
+Mountain View            CA     37.38605       -122.08386     
+Muncie                   IN     40.19189       -85.40170      
+Murfreesboro             TN     35.84611       -86.39195      
+Napa                     CA     38.29754       -122.28687     
+Naperville               IL     41.74849       -88.18611      
+Naples                   FL     26.17762       -81.80695      
+Nashville                TN     36.17447       -86.76796      
+New City                 NY     41.14759       -73.98930      
+New Haven                CT     41.31073       -72.92992      
+New London               CT     41.35542       -72.10276      
+Newark                   NJ     40.73566       -74.17236      
+Newark                   DE     39.68372       -75.74966      
+Newport                  RI     41.49058       -71.31020      
+Newport                  TN     35.96428       -83.18215      
+Niagara Falls            NY     43.09246       -79.04715      
+Norfolk                  VA     36.85077       -76.28587      
+North Charleston         SC     32.85462       -79.97481      
+North Pole               AK     64.75111       -147.34944     
+Norwich                  CT     41.53223       -72.08885      
+Oakland                  CA     37.80436       -122.27111     
+Oklahoma City            OK     35.48192       -97.50847      
+Oneida                   NY     43.09565       -75.66949      
+Orange                   CA     33.78791       -117.85310     
+Ozark                    AR     35.48975       -93.82427      
+Palm Beach Gardens       FL     26.83862       -80.12997      
+Palm Coast               FL     29.58445       -81.20787      
+Palm Harbor              FL     28.07807       -82.76371      
+Palm Springs             CA     33.83052       -116.54560     
+Palo Alto                CA     37.46832       -122.14394     
+Paterson                 NJ     40.91475       -74.16283      
+Petersburg               VA     37.22793       -77.40192      
+Philadelphia             PA     39.95258       -75.16522      
+Phoenix                  AZ     33.44838       -112.07404     
+Pontiac                  MI     42.63892       -83.29105      
+Portland                 OR     45.52306       -122.67648     
+Providence               RI     41.82523       -71.41888      
+Racine                   WI     42.72270       -87.78423      
+Rapid City               SD     44.08054       -103.23102     
+Redmond                  WA     47.67399       -122.12151     
+Reno                     NV     39.53090       -119.81497     
+Rensselaer               NY     42.64452       -73.74725      
+Richmond                 VA     37.54129       -77.43477      
+Rochester                MN     44.01637       -92.47540      
+Rochester                NY     43.16103       -77.61092      
+Rochester Hills          MI     42.65852       -83.15273      
+Rock Hill                SC     34.92487       -81.02508      
+Rockford                 IL     42.25945       -89.06445      
+Sacramento               CA     38.57576       -121.47885     
+Saint Charles            MO     38.78811       -90.49744      
+Saint Paul               MN     44.95371       -93.08996      
+Saint Paul               MN     44.95445       -93.09130      
+Salem                    MA     42.51954       -70.89671      
+Salem                    OR     44.94410       -123.04028     
+Salt Lake City           UT     40.75870       -111.87618     
+San Antonio              TX     29.42435       -98.49114      
+San Diego                CA     32.71574       -117.16109     
+San Francisco            CA     37.77397       -122.43130     
+Santa Barbara            CA     34.42083       -119.69819     
+Santa Fe                 NM     35.69154       -105.94418     
+Sioux Falls              SD     43.53639       -96.73167      
+South Bend               IN     41.67639       -86.25028      
+South Burlington         VT     44.46700       -73.17096      
+South Lake Tahoe         CA     38.93660       -119.98665     
+Sparks                   NV     39.55444       -119.73556     
+Springdale               AR     36.18675       -94.12882      
+Springfield              IL     39.80000       -89.65000      
+Springfield              MA     42.10139       -72.59028      
+Springfield              MO     37.21039       -93.29726      
+Springfield              OH     39.92575       -83.80669      
+Springfield              OR     44.04620       -123.02335     
+Springfield              VA     38.78861       -77.17432      
+St Paul                  MN     44.94964       -93.09312      
+St. George               UT     37.09517       -113.57597     
+St. Joseph               MO     39.76685       -94.83415      
+St. Louis                MO     38.62700       -90.19940      
+Tampa                    FL     27.96416       -82.45261      
+Toledo                   OH     41.65103       -83.54194      
+Trenton                  NJ     40.21705       -74.74294      
+Tuba City                AZ     36.13691       -111.24017     
+Twin Falls               ID     42.56279       -114.46050     
+Utqiagvik                AK     71.29056       -156.78861     
+Virginia Beach           VA     36.86314       -76.01578      
+Walnut Creek             CA     37.91008       -122.06519     
+Warren                   MI     42.49194       -83.02389      
+Waterbury                CT     41.55611       -73.04139      
+West Jordan              UT     40.60639       -111.97611     
+West Lafayette           IN     40.42587       -86.90807      
+West Palm Beach          FL     26.70972       -80.06416      
+West Valley City         UT     40.68917       -111.99389     
+Yakima                   WA     46.60207       -120.50590     
+Yonkers                  NY     40.93121       -73.89875      
+Yorktown                 VA     37.23875       -76.50967      
+
+
+Test case 2: Find an element (successful)
+San Francisco found:
+San Francisco            CA     37.77397       -122.43130     
+
+Test case 3: Find an element (failed)
+Tokyo not found
+
+Test case 4: Sort by state
+North Pole               AK     64.75111       -147.34944     
+Utqiagvik                AK     71.29056       -156.78861     
+Auburn                   AL     32.60986       -85.48078      
+Birmingham               AL     33.54368       -86.77963      
+Decatur                  AL     34.60382       -86.98504      
+Hoover                   AL     33.40575       -86.81155      
+Huntsville               AL     34.73823       -86.60179      
+Hot Springs              AR     34.49621       -93.05722      
+Jonesboro                AR     35.83558       -90.70503      
+Ozark                    AR     35.48975       -93.82427      
+Springdale               AR     36.18675       -94.12882      
+Casas Adobes             AZ     32.31905       -111.00105     
+Mohave Valley            AZ     34.93306       -114.58885     
+Phoenix                  AZ     33.44838       -112.07404     
+Tuba City                AZ     36.13691       -111.24017     
+Antioch                  CA     38.00500       -121.80583     
+Berkeley                 CA     37.87167       -122.27278     
+Beverly Hills            CA     34.07362       -118.40035     
+Long Beach               CA     33.77005       -118.19374     
+Mountain View            CA     37.38605       -122.08386     
+Napa                     CA     38.29754       -122.28687     
+Oakland                  CA     37.80436       -122.27111     
+Orange                   CA     33.78791       -117.85310     
+Palm Springs             CA     33.83052       -116.54560     
+Palo Alto                CA     37.46832       -122.14394     
+Sacramento               CA     38.57576       -121.47885     
+San Diego                CA     32.71574       -117.16109     
+San Francisco            CA     37.77397       -122.43130     
+Santa Barbara            CA     34.42083       -119.69819     
+South Lake Tahoe         CA     38.93660       -119.98665     
+Walnut Creek             CA     37.91008       -122.06519     
+Aurora                   CO     39.71084       -104.81250     
+Castle Rock              CO     39.37491       -104.85386     
+Colorado Springs         CO     38.84613       -104.80064     
+Denver                   CO     39.74204       -104.99153     
+Eldorado Springs         CO     39.93212       -105.28164     
+Lakewood                 CO     39.71085       -105.08151     
+Bridgeport               CT     41.18639       -73.19556      
+Greenwich                CT     41.02705       -73.62007      
+Hamden                   CT     41.38583       -72.90424      
+New Haven                CT     41.31073       -72.92992      
+New London               CT     41.35542       -72.10276      
+Norwich                  CT     41.53223       -72.08885      
+Waterbury                CT     41.55611       -73.04139      
+Dover                    DE     39.16108       -75.52568      
+Newark                   DE     39.68372       -75.74966      
+Cooper City              FL     26.05731       -80.27171      
+Jacksonville             FL     30.33218       -81.65565      
+Miami                    FL     25.76168       -80.19179      
+Miami Gardens            FL     25.94212       -80.26992      
+Naples                   FL     26.17762       -81.80695      
+Palm Beach Gardens       FL     26.83862       -80.12997      
+Palm Coast               FL     29.58445       -81.20787      
+Palm Harbor              FL     28.07807       -82.76371      
+Tampa                    FL     27.96416       -82.45261      
+West Palm Beach          FL     26.70972       -80.06416      
+Athens                   GA     33.95000       -83.38333      
+Atlanta                  GA     33.75375       -84.38633      
+Camilla                  GA     31.23129       -84.21046      
+East Point               GA     33.67955       -84.43937      
+Macon                    GA     32.83813       -83.63471      
+Davenport                IA     41.54306       -90.59084      
+Boise                    ID     43.61888       -116.21502     
+Meridian                 ID     43.61417       -116.39889     
+Meridian                 ID     43.61234       -116.39371     
+Moscow                   ID     46.73171       -116.99994     
+Twin Falls               ID     42.56279       -114.46050     
+Des Plaines              IL     42.03336       -87.88340      
+Highland Park            IL     42.19017       -87.78670      
+Joliet                   IL     41.52056       -88.15056      
+Naperville               IL     41.74849       -88.18611      
+Rockford                 IL     42.25945       -89.06445      
+Springfield              IL     39.80000       -89.65000      
+Columbus                 IN     39.20144       -85.92138      
+Indianapolis             IN     39.79100       -86.14800      
+Lafayette                IN     40.41670       -86.87529      
+Michigan City            IN     41.72354       -86.89928      
+Muncie                   IN     40.19189       -85.40170      
+South Bend               IN     41.67639       -86.25028      
+West Lafayette           IN     40.42587       -86.90807      
+Kansas City              KS     39.10667       -94.67639      
+Manhattan                KS     39.18361       -96.57167      
+Lexington                KY     38.04799       -84.50164      
+London                   KY     37.12999       -84.08412      
+Louisville               KY     38.32873       -85.76477      
+Boston                   MA     42.36115       -71.05708      
+Cambridge                MA     42.37361       -71.11056      
+Fall River               MA     41.69663       -71.14999      
+Salem                    MA     42.51954       -70.89671      
+Springfield              MA     42.10139       -72.59028      
+Ann Arbor                MI     42.27959       -83.73212      
+Dearborn Heights         MI     42.33698       -83.27326      
+Detroit                  MI     42.33143       -83.04575      
+Garden City              MI     42.32557       -83.33093      
+Jackson                  MI     42.24578       -84.40597      
+Pontiac                  MI     42.63892       -83.29105      
+Rochester Hills          MI     42.65852       -83.15273      
+Warren                   MI     42.49194       -83.02389      
+Bloomington              MN     44.84080       -93.29828      
+Hugo                     MN     45.15997       -92.99334      
+Minneapolis              MN     44.98666       -93.25813      
+Rochester                MN     44.01637       -92.47540      
+Saint Paul               MN     44.95371       -93.08996      
+Saint Paul               MN     44.95445       -93.09130      
+St Paul                  MN     44.94964       -93.09312      
+Columbia                 MO     38.95156       -92.32864      
+Kansas City              MO     39.09972       -94.57833      
+Saint Charles            MO     38.78811       -90.49744      
+Springfield              MO     37.21039       -93.29726      
+St. Joseph               MO     39.76685       -94.83415      
+St. Louis                MO     38.62700       -90.19940      
+Carthage                 MS     32.73264       -89.53618      
+Columbus                 MS     33.49567       -88.42726      
+Charlotte                NC     35.22709       -80.84312      
+Concord                  NC     35.40875       -80.57951      
+Gastonia                 NC     35.25528       -81.18028      
+Greenville               NC     35.61266       -77.36636      
+Grifton                  NC     35.37266       -77.43746      
+High Point               NC     35.97055       -79.99750      
+Bismarck                 ND     46.82591       -100.77828     
+Fargo                    ND     46.87719       -96.78980      
+Lincoln                  NE     40.80686       -96.68168      
+Hoboken                  NJ     40.74526       -74.03478      
+Jersey City              NJ     40.71907       -74.05055      
+Newark                   NJ     40.73566       -74.17236      
+Paterson                 NJ     40.91475       -74.16283      
+Trenton                  NJ     40.21705       -74.74294      
+Las Cruces               NM     32.34660       -106.78772     
+Las Cruces               NM     32.32660       -106.77544     
+Santa Fe                 NM     35.69154       -105.94418     
+Reno                     NV     39.53090       -119.81497     
+Sparks                   NV     39.55444       -119.73556     
+Albany                   NY     42.65258       -73.75623      
+Binghamton               NY     42.09884       -75.92065      
+Jamestown                NY     42.09555       -79.23861      
+New City                 NY     41.14759       -73.98930      
+Niagara Falls            NY     43.09246       -79.04715      
+Oneida                   NY     43.09565       -75.66949      
+Rensselaer               NY     42.64452       -73.74725      
+Rochester                NY     43.16103       -77.61092      
+Yonkers                  NY     40.93121       -73.89875      
+Columbus                 OH     39.98333       -82.98333      
+Dayton                   OH     39.75895       -84.19161      
+Springfield              OH     39.92575       -83.80669      
+Toledo                   OH     41.65103       -83.54194      
+Mannford                 OK     36.13341       -96.35445      
+Oklahoma City            OK     35.48192       -97.50847      
+Hillsboro                OR     45.52290       -122.98983     
+Portland                 OR     45.52306       -122.67648     
+Salem                    OR     44.94410       -123.04028     
+Springfield              OR     44.04620       -123.02335     
+Allentown                PA     40.61395       -75.47779      
+Harrisburg               PA     40.26368       -76.89074      
+Philadelphia             PA     39.95258       -75.16522      
+Newport                  RI     41.49058       -71.31020      
+Providence               RI     41.82523       -71.41888      
+Anderson                 SC     34.50344       -82.65013      
+Charleston               SC     32.78462       -79.94092      
+North Charleston         SC     32.85462       -79.97481      
+Rock Hill                SC     34.92487       -81.02508      
+Rapid City               SD     44.08054       -103.23102     
+Sioux Falls              SD     43.53639       -96.73167      
+Bartlett                 TN     35.20444       -89.87381      
+Franklin                 TN     35.92506       -86.86889      
+Kingsport                TN     36.54844       -82.56182      
+Maryville                TN     35.76006       -83.96685      
+Memphis                  TN     35.11750       -89.97111      
+Murfreesboro             TN     35.84611       -86.39195      
+Nashville                TN     36.17447       -86.76796      
+Newport                  TN     35.96428       -83.18215      
+Austin                   TX     30.26667       -97.73333      
+Dallas                   TX     32.77917       -96.80889      
+Houston                  TX     29.74991       -95.35842      
+San Antonio              TX     29.42435       -98.49114      
+Salt Lake City           UT     40.75870       -111.87618     
+St. George               UT     37.09517       -113.57597     
+West Jordan              UT     40.60639       -111.97611     
+West Valley City         UT     40.68917       -111.99389     
+Centreville              VA     38.84039       -77.42888      
+Hampton                  VA     37.03495       -76.36012      
+Norfolk                  VA     36.85077       -76.28587      
+Petersburg               VA     37.22793       -77.40192      
+Richmond                 VA     37.54129       -77.43477      
+Springfield              VA     38.78861       -77.17432      
+Virginia Beach           VA     36.86314       -76.01578      
+Yorktown                 VA     37.23875       -76.50967      
+Burlington               VT     44.47588       -73.21207      
+South Burlington         VT     44.46700       -73.17096      
+Auburn                   WA     47.30732       -122.22846     
+Bellevue                 WA     47.61038       -122.20068     
+Lakewood                 WA     47.17176       -122.51846     
+Redmond                  WA     47.67399       -122.12151     
+Yakima                   WA     46.60207       -120.50590     
+Green Bay                WI     44.51333       -88.01583      
+Kenosha                  WI     42.58808       -87.82290      
+Madison                  WI     43.07305       -89.40123      
+Racine                   WI     42.72270       -87.78423      
+Charleston               WV     38.34982       -81.63262      
+Huntington               WV     38.41365       -82.44673      
+Cheyenne                 WY     41.16108       -104.80545     
+
+
+Test case 5: Sort by latitude
+Miami                    FL     25.76168       -80.19179      
+Miami Gardens            FL     25.94212       -80.26992      
+Cooper City              FL     26.05731       -80.27171      
+Naples                   FL     26.17762       -81.80695      
+West Palm Beach          FL     26.70972       -80.06416      
+Palm Beach Gardens       FL     26.83862       -80.12997      
+Tampa                    FL     27.96416       -82.45261      
+Palm Harbor              FL     28.07807       -82.76371      
+San Antonio              TX     29.42435       -98.49114      
+Palm Coast               FL     29.58445       -81.20787      
+Houston                  TX     29.74991       -95.35842      
+Austin                   TX     30.26667       -97.73333      
+Jacksonville             FL     30.33218       -81.65565      
+Camilla                  GA     31.23129       -84.21046      
+Casas Adobes             AZ     32.31905       -111.00105     
+Las Cruces               NM     32.32660       -106.77544     
+Las Cruces               NM     32.34660       -106.78772     
+Auburn                   AL     32.60986       -85.48078      
+San Diego                CA     32.71574       -117.16109     
+Carthage                 MS     32.73264       -89.53618      
+Dallas                   TX     32.77917       -96.80889      
+Charleston               SC     32.78462       -79.94092      
+Macon                    GA     32.83813       -83.63471      
+North Charleston         SC     32.85462       -79.97481      
+Hoover                   AL     33.40575       -86.81155      
+Phoenix                  AZ     33.44838       -112.07404     
+Columbus                 MS     33.49567       -88.42726      
+Birmingham               AL     33.54368       -86.77963      
+East Point               GA     33.67955       -84.43937      
+Atlanta                  GA     33.75375       -84.38633      
+Long Beach               CA     33.77005       -118.19374     
+Orange                   CA     33.78791       -117.85310     
+Palm Springs             CA     33.83052       -116.54560     
+Athens                   GA     33.95000       -83.38333      
+Beverly Hills            CA     34.07362       -118.40035     
+Santa Barbara            CA     34.42083       -119.69819     
+Hot Springs              AR     34.49621       -93.05722      
+Anderson                 SC     34.50344       -82.65013      
+Decatur                  AL     34.60382       -86.98504      
+Huntsville               AL     34.73823       -86.60179      
+Rock Hill                SC     34.92487       -81.02508      
+Mohave Valley            AZ     34.93306       -114.58885     
+Memphis                  TN     35.11750       -89.97111      
+Bartlett                 TN     35.20444       -89.87381      
+Charlotte                NC     35.22709       -80.84312      
+Gastonia                 NC     35.25528       -81.18028      
+Grifton                  NC     35.37266       -77.43746      
+Concord                  NC     35.40875       -80.57951      
+Oklahoma City            OK     35.48192       -97.50847      
+Ozark                    AR     35.48975       -93.82427      
+Greenville               NC     35.61266       -77.36636      
+Santa Fe                 NM     35.69154       -105.94418     
+Maryville                TN     35.76006       -83.96685      
+Jonesboro                AR     35.83558       -90.70503      
+Murfreesboro             TN     35.84611       -86.39195      
+Franklin                 TN     35.92506       -86.86889      
+Newport                  TN     35.96428       -83.18215      
+High Point               NC     35.97055       -79.99750      
+Mannford                 OK     36.13341       -96.35445      
+Tuba City                AZ     36.13691       -111.24017     
+Nashville                TN     36.17447       -86.76796      
+Springdale               AR     36.18675       -94.12882      
+Kingsport                TN     36.54844       -82.56182      
+Norfolk                  VA     36.85077       -76.28587      
+Virginia Beach           VA     36.86314       -76.01578      
+Hampton                  VA     37.03495       -76.36012      
+St. George               UT     37.09517       -113.57597     
+London                   KY     37.12999       -84.08412      
+Springfield              MO     37.21039       -93.29726      
+Petersburg               VA     37.22793       -77.40192      
+Yorktown                 VA     37.23875       -76.50967      
+Mountain View            CA     37.38605       -122.08386     
+Palo Alto                CA     37.46832       -122.14394     
+Richmond                 VA     37.54129       -77.43477      
+San Francisco            CA     37.77397       -122.43130     
+Oakland                  CA     37.80436       -122.27111     
+Berkeley                 CA     37.87167       -122.27278     
+Walnut Creek             CA     37.91008       -122.06519     
+Antioch                  CA     38.00500       -121.80583     
+Lexington                KY     38.04799       -84.50164      
+Napa                     CA     38.29754       -122.28687     
+Louisville               KY     38.32873       -85.76477      
+Charleston               WV     38.34982       -81.63262      
+Huntington               WV     38.41365       -82.44673      
+Sacramento               CA     38.57576       -121.47885     
+St. Louis                MO     38.62700       -90.19940      
+Saint Charles            MO     38.78811       -90.49744      
+Springfield              VA     38.78861       -77.17432      
+Centreville              VA     38.84039       -77.42888      
+Colorado Springs         CO     38.84613       -104.80064     
+South Lake Tahoe         CA     38.93660       -119.98665     
+Columbia                 MO     38.95156       -92.32864      
+Kansas City              MO     39.09972       -94.57833      
+Kansas City              KS     39.10667       -94.67639      
+Dover                    DE     39.16108       -75.52568      
+Manhattan                KS     39.18361       -96.57167      
+Columbus                 IN     39.20144       -85.92138      
+Castle Rock              CO     39.37491       -104.85386     
+Reno                     NV     39.53090       -119.81497     
+Sparks                   NV     39.55444       -119.73556     
+Newark                   DE     39.68372       -75.74966      
+Aurora                   CO     39.71084       -104.81250     
+Lakewood                 CO     39.71085       -105.08151     
+Denver                   CO     39.74204       -104.99153     
+Dayton                   OH     39.75895       -84.19161      
+St. Joseph               MO     39.76685       -94.83415      
+Indianapolis             IN     39.79100       -86.14800      
+Springfield              IL     39.80000       -89.65000      
+Springfield              OH     39.92575       -83.80669      
+Eldorado Springs         CO     39.93212       -105.28164     
+Philadelphia             PA     39.95258       -75.16522      
+Columbus                 OH     39.98333       -82.98333      
+Muncie                   IN     40.19189       -85.40170      
+Trenton                  NJ     40.21705       -74.74294      
+Harrisburg               PA     40.26368       -76.89074      
+Lafayette                IN     40.41670       -86.87529      
+West Lafayette           IN     40.42587       -86.90807      
+West Jordan              UT     40.60639       -111.97611     
+Allentown                PA     40.61395       -75.47779      
+West Valley City         UT     40.68917       -111.99389     
+Jersey City              NJ     40.71907       -74.05055      
+Newark                   NJ     40.73566       -74.17236      
+Hoboken                  NJ     40.74526       -74.03478      
+Salt Lake City           UT     40.75870       -111.87618     
+Lincoln                  NE     40.80686       -96.68168      
+Paterson                 NJ     40.91475       -74.16283      
+Yonkers                  NY     40.93121       -73.89875      
+Greenwich                CT     41.02705       -73.62007      
+New City                 NY     41.14759       -73.98930      
+Cheyenne                 WY     41.16108       -104.80545     
+Bridgeport               CT     41.18639       -73.19556      
+New Haven                CT     41.31073       -72.92992      
+New London               CT     41.35542       -72.10276      
+Hamden                   CT     41.38583       -72.90424      
+Newport                  RI     41.49058       -71.31020      
+Joliet                   IL     41.52056       -88.15056      
+Norwich                  CT     41.53223       -72.08885      
+Davenport                IA     41.54306       -90.59084      
+Waterbury                CT     41.55611       -73.04139      
+Toledo                   OH     41.65103       -83.54194      
+South Bend               IN     41.67639       -86.25028      
+Fall River               MA     41.69663       -71.14999      
+Michigan City            IN     41.72354       -86.89928      
+Naperville               IL     41.74849       -88.18611      
+Providence               RI     41.82523       -71.41888      
+Des Plaines              IL     42.03336       -87.88340      
+Jamestown                NY     42.09555       -79.23861      
+Binghamton               NY     42.09884       -75.92065      
+Springfield              MA     42.10139       -72.59028      
+Highland Park            IL     42.19017       -87.78670      
+Jackson                  MI     42.24578       -84.40597      
+Rockford                 IL     42.25945       -89.06445      
+Ann Arbor                MI     42.27959       -83.73212      
+Garden City              MI     42.32557       -83.33093      
+Detroit                  MI     42.33143       -83.04575      
+Dearborn Heights         MI     42.33698       -83.27326      
+Boston                   MA     42.36115       -71.05708      
+Cambridge                MA     42.37361       -71.11056      
+Warren                   MI     42.49194       -83.02389      
+Salem                    MA     42.51954       -70.89671      
+Twin Falls               ID     42.56279       -114.46050     
+Kenosha                  WI     42.58808       -87.82290      
+Pontiac                  MI     42.63892       -83.29105      
+Rensselaer               NY     42.64452       -73.74725      
+Albany                   NY     42.65258       -73.75623      
+Rochester Hills          MI     42.65852       -83.15273      
+Racine                   WI     42.72270       -87.78423      
+Madison                  WI     43.07305       -89.40123      
+Niagara Falls            NY     43.09246       -79.04715      
+Oneida                   NY     43.09565       -75.66949      
+Rochester                NY     43.16103       -77.61092      
+Sioux Falls              SD     43.53639       -96.73167      
+Meridian                 ID     43.61234       -116.39371     
+Meridian                 ID     43.61417       -116.39889     
+Boise                    ID     43.61888       -116.21502     
+Rochester                MN     44.01637       -92.47540      
+Springfield              OR     44.04620       -123.02335     
+Rapid City               SD     44.08054       -103.23102     
+South Burlington         VT     44.46700       -73.17096      
+Burlington               VT     44.47588       -73.21207      
+Green Bay                WI     44.51333       -88.01583      
+Bloomington              MN     44.84080       -93.29828      
+Salem                    OR     44.94410       -123.04028     
+St Paul                  MN     44.94964       -93.09312      
+Saint Paul               MN     44.95371       -93.08996      
+Saint Paul               MN     44.95445       -93.09130      
+Minneapolis              MN     44.98666       -93.25813      
+Hugo                     MN     45.15997       -92.99334      
+Hillsboro                OR     45.52290       -122.98983     
+Portland                 OR     45.52306       -122.67648     
+Yakima                   WA     46.60207       -120.50590     
+Moscow                   ID     46.73171       -116.99994     
+Bismarck                 ND     46.82591       -100.77828     
+Fargo                    ND     46.87719       -96.78980      
+Lakewood                 WA     47.17176       -122.51846     
+Auburn                   WA     47.30732       -122.22846     
+Bellevue                 WA     47.61038       -122.20068     
+Redmond                  WA     47.67399       -122.12151     
+North Pole               AK     64.75111       -147.34944     
+Utqiagvik                AK     71.29056       -156.78861     
+
+
+Test case 6: Sort by longitude
+Utqiagvik                AK     71.29056       -156.78861     
+North Pole               AK     64.75111       -147.34944     
+Salem                    OR     44.94410       -123.04028     
+Springfield              OR     44.04620       -123.02335     
+Hillsboro                OR     45.52290       -122.98983     
+Portland                 OR     45.52306       -122.67648     
+Lakewood                 WA     47.17176       -122.51846     
+San Francisco            CA     37.77397       -122.43130     
+Napa                     CA     38.29754       -122.28687     
+Berkeley                 CA     37.87167       -122.27278     
+Oakland                  CA     37.80436       -122.27111     
+Auburn                   WA     47.30732       -122.22846     
+Bellevue                 WA     47.61038       -122.20068     
+Palo Alto                CA     37.46832       -122.14394     
+Redmond                  WA     47.67399       -122.12151     
+Mountain View            CA     37.38605       -122.08386     
+Walnut Creek             CA     37.91008       -122.06519     
+Antioch                  CA     38.00500       -121.80583     
+Sacramento               CA     38.57576       -121.47885     
+Yakima                   WA     46.60207       -120.50590     
+South Lake Tahoe         CA     38.93660       -119.98665     
+Reno                     NV     39.53090       -119.81497     
+Sparks                   NV     39.55444       -119.73556     
+Santa Barbara            CA     34.42083       -119.69819     
+Beverly Hills            CA     34.07362       -118.40035     
+Long Beach               CA     33.77005       -118.19374     
+Orange                   CA     33.78791       -117.85310     
+San Diego                CA     32.71574       -117.16109     
+Moscow                   ID     46.73171       -116.99994     
+Palm Springs             CA     33.83052       -116.54560     
+Meridian                 ID     43.61417       -116.39889     
+Meridian                 ID     43.61234       -116.39371     
+Boise                    ID     43.61888       -116.21502     
+Mohave Valley            AZ     34.93306       -114.58885     
+Twin Falls               ID     42.56279       -114.46050     
+St. George               UT     37.09517       -113.57597     
+Phoenix                  AZ     33.44838       -112.07404     
+West Valley City         UT     40.68917       -111.99389     
+West Jordan              UT     40.60639       -111.97611     
+Salt Lake City           UT     40.75870       -111.87618     
+Tuba City                AZ     36.13691       -111.24017     
+Casas Adobes             AZ     32.31905       -111.00105     
+Las Cruces               NM     32.34660       -106.78772     
+Las Cruces               NM     32.32660       -106.77544     
+Santa Fe                 NM     35.69154       -105.94418     
+Eldorado Springs         CO     39.93212       -105.28164     
+Lakewood                 CO     39.71085       -105.08151     
+Denver                   CO     39.74204       -104.99153     
+Castle Rock              CO     39.37491       -104.85386     
+Aurora                   CO     39.71084       -104.81250     
+Cheyenne                 WY     41.16108       -104.80545     
+Colorado Springs         CO     38.84613       -104.80064     
+Rapid City               SD     44.08054       -103.23102     
+Bismarck                 ND     46.82591       -100.77828     
+San Antonio              TX     29.42435       -98.49114      
+Austin                   TX     30.26667       -97.73333      
+Oklahoma City            OK     35.48192       -97.50847      
+Dallas                   TX     32.77917       -96.80889      
+Fargo                    ND     46.87719       -96.78980      
+Sioux Falls              SD     43.53639       -96.73167      
+Lincoln                  NE     40.80686       -96.68168      
+Manhattan                KS     39.18361       -96.57167      
+Mannford                 OK     36.13341       -96.35445      
+Houston                  TX     29.74991       -95.35842      
+St. Joseph               MO     39.76685       -94.83415      
+Kansas City              KS     39.10667       -94.67639      
+Kansas City              MO     39.09972       -94.57833      
+Springdale               AR     36.18675       -94.12882      
+Ozark                    AR     35.48975       -93.82427      
+Bloomington              MN     44.84080       -93.29828      
+Springfield              MO     37.21039       -93.29726      
+Minneapolis              MN     44.98666       -93.25813      
+St Paul                  MN     44.94964       -93.09312      
+Saint Paul               MN     44.95445       -93.09130      
+Saint Paul               MN     44.95371       -93.08996      
+Hot Springs              AR     34.49621       -93.05722      
+Hugo                     MN     45.15997       -92.99334      
+Rochester                MN     44.01637       -92.47540      
+Columbia                 MO     38.95156       -92.32864      
+Jonesboro                AR     35.83558       -90.70503      
+Davenport                IA     41.54306       -90.59084      
+Saint Charles            MO     38.78811       -90.49744      
+St. Louis                MO     38.62700       -90.19940      
+Memphis                  TN     35.11750       -89.97111      
+Bartlett                 TN     35.20444       -89.87381      
+Springfield              IL     39.80000       -89.65000      
+Carthage                 MS     32.73264       -89.53618      
+Madison                  WI     43.07305       -89.40123      
+Rockford                 IL     42.25945       -89.06445      
+Columbus                 MS     33.49567       -88.42726      
+Naperville               IL     41.74849       -88.18611      
+Joliet                   IL     41.52056       -88.15056      
+Green Bay                WI     44.51333       -88.01583      
+Des Plaines              IL     42.03336       -87.88340      
+Kenosha                  WI     42.58808       -87.82290      
+Highland Park            IL     42.19017       -87.78670      
+Racine                   WI     42.72270       -87.78423      
+Decatur                  AL     34.60382       -86.98504      
+West Lafayette           IN     40.42587       -86.90807      
+Michigan City            IN     41.72354       -86.89928      
+Lafayette                IN     40.41670       -86.87529      
+Franklin                 TN     35.92506       -86.86889      
+Hoover                   AL     33.40575       -86.81155      
+Birmingham               AL     33.54368       -86.77963      
+Nashville                TN     36.17447       -86.76796      
+Huntsville               AL     34.73823       -86.60179      
+Murfreesboro             TN     35.84611       -86.39195      
+South Bend               IN     41.67639       -86.25028      
+Indianapolis             IN     39.79100       -86.14800      
+Columbus                 IN     39.20144       -85.92138      
+Louisville               KY     38.32873       -85.76477      
+Auburn                   AL     32.60986       -85.48078      
+Muncie                   IN     40.19189       -85.40170      
+Lexington                KY     38.04799       -84.50164      
+East Point               GA     33.67955       -84.43937      
+Jackson                  MI     42.24578       -84.40597      
+Atlanta                  GA     33.75375       -84.38633      
+Camilla                  GA     31.23129       -84.21046      
+Dayton                   OH     39.75895       -84.19161      
+London                   KY     37.12999       -84.08412      
+Maryville                TN     35.76006       -83.96685      
+Springfield              OH     39.92575       -83.80669      
+Ann Arbor                MI     42.27959       -83.73212      
+Macon                    GA     32.83813       -83.63471      
+Toledo                   OH     41.65103       -83.54194      
+Athens                   GA     33.95000       -83.38333      
+Garden City              MI     42.32557       -83.33093      
+Pontiac                  MI     42.63892       -83.29105      
+Dearborn Heights         MI     42.33698       -83.27326      
+Newport                  TN     35.96428       -83.18215      
+Rochester Hills          MI     42.65852       -83.15273      
+Detroit                  MI     42.33143       -83.04575      
+Warren                   MI     42.49194       -83.02389      
+Columbus                 OH     39.98333       -82.98333      
+Palm Harbor              FL     28.07807       -82.76371      
+Anderson                 SC     34.50344       -82.65013      
+Kingsport                TN     36.54844       -82.56182      
+Tampa                    FL     27.96416       -82.45261      
+Huntington               WV     38.41365       -82.44673      
+Naples                   FL     26.17762       -81.80695      
+Jacksonville             FL     30.33218       -81.65565      
+Charleston               WV     38.34982       -81.63262      
+Palm Coast               FL     29.58445       -81.20787      
+Gastonia                 NC     35.25528       -81.18028      
+Rock Hill                SC     34.92487       -81.02508      
+Charlotte                NC     35.22709       -80.84312      
+Concord                  NC     35.40875       -80.57951      
+Cooper City              FL     26.05731       -80.27171      
+Miami Gardens            FL     25.94212       -80.26992      
+Miami                    FL     25.76168       -80.19179      
+Palm Beach Gardens       FL     26.83862       -80.12997      
+West Palm Beach          FL     26.70972       -80.06416      
+High Point               NC     35.97055       -79.99750      
+North Charleston         SC     32.85462       -79.97481      
+Charleston               SC     32.78462       -79.94092      
+Jamestown                NY     42.09555       -79.23861      
+Niagara Falls            NY     43.09246       -79.04715      
+Rochester                NY     43.16103       -77.61092      
+Grifton                  NC     35.37266       -77.43746      
+Richmond                 VA     37.54129       -77.43477      
+Centreville              VA     38.84039       -77.42888      
+Petersburg               VA     37.22793       -77.40192      
+Greenville               NC     35.61266       -77.36636      
+Springfield              VA     38.78861       -77.17432      
+Harrisburg               PA     40.26368       -76.89074      
+Yorktown                 VA     37.23875       -76.50967      
+Hampton                  VA     37.03495       -76.36012      
+Norfolk                  VA     36.85077       -76.28587      
+Virginia Beach           VA     36.86314       -76.01578      
+Binghamton               NY     42.09884       -75.92065      
+Newark                   DE     39.68372       -75.74966      
+Oneida                   NY     43.09565       -75.66949      
+Dover                    DE     39.16108       -75.52568      
+Allentown                PA     40.61395       -75.47779      
+Philadelphia             PA     39.95258       -75.16522      
+Trenton                  NJ     40.21705       -74.74294      
+Newark                   NJ     40.73566       -74.17236      
+Paterson                 NJ     40.91475       -74.16283      
+Jersey City              NJ     40.71907       -74.05055      
+Hoboken                  NJ     40.74526       -74.03478      
+New City                 NY     41.14759       -73.98930      
+Yonkers                  NY     40.93121       -73.89875      
+Albany                   NY     42.65258       -73.75623      
+Rensselaer               NY     42.64452       -73.74725      
+Greenwich                CT     41.02705       -73.62007      
+Burlington               VT     44.47588       -73.21207      
+Bridgeport               CT     41.18639       -73.19556      
+South Burlington         VT     44.46700       -73.17096      
+Waterbury                CT     41.55611       -73.04139      
+New Haven                CT     41.31073       -72.92992      
+Hamden                   CT     41.38583       -72.90424      
+Springfield              MA     42.10139       -72.59028      
+New London               CT     41.35542       -72.10276      
+Norwich                  CT     41.53223       -72.08885      
+Providence               RI     41.82523       -71.41888      
+Newport                  RI     41.49058       -71.31020      
+Fall River               MA     41.69663       -71.14999      
+Cambridge                MA     42.37361       -71.11056      
+Boston                   MA     42.36115       -71.05708      
+Salem                    MA     42.51954       -70.89671      
+

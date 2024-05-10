@@ -1,0 +1,66 @@
+Test case 1: create a new catalog
+A new catalog was created with 0 titles
+
+
+Test case 2: add new titles
+8 titles added to myLibrary
+
+Test case 3: view all titles
+Call Number 	Title                              	Publisher                	Year 	#Copies	Author/Month   	ISBN/Issue	
+P-111-222-333	ACM Transactions on Algorithms     	ACM                      	2005 	5      	SEPTEMBER      	2         	
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2021 	10     	M. Savitch     	9876579310	
+B-222-111-111	Programming and Data Structures    	McGraw Hill              	2018 	5      	Brian Lang     	9878879310	
+P-111-111-333	ACM Transactions on Communications 	ACM                      	2005 	2      	JULY           	1         	
+P-111-111-111	IEEE Software                      	IEEE Computer Society    	1983 	1      	JUNE           	3         	
+P-222-111-333	IEEE Spectrum                      	IEEE Computer Society    	2020 	1      	SEPTEMBER      	1         	
+B-222-333-111	Introduction to C Language         	Wiley                    	2005 	2      	James Foster   	1203324661	
+B-222-222-222	Introduction to Java Programming   	Cengage                  	2018 	2      	G. Albert      	9876759310	
+
+Test case 4: find title by call number (succesfull)
+Title found with call number B-111-111-111:
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2021 	10     	M. Savitch     	9876579310	
+
+Test case 5: find title by call number (fail)
+No title found with call number B-333-333-333
+
+Test case 6: find titles by title (one title found)
+One title found with the title: Programming and Data Structures
+B-222-111-111	Programming and Data Structures    	McGraw Hill              	2018 	5      	Brian Lang     	9878879310	
+
+
+Test case 7: find titles by title (more than one title found)
+2 titles found with the title: Introduction to Java Programming
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2021 	10     	M. Savitch     	9876579310	
+B-222-222-222	Introduction to Java Programming   	Cengage                  	2018 	2      	G. Albert      	9876759310	
+
+
+Test case 8: find titles by title (no title found)
+No titles found with the title: Introduction to Python
+
+
+Test case 9: find titles by year (one title found)
+One title found for the year 2021:
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2021 	10     	M. Savitch     	9876579310	
+
+
+Test case 10: find titles by year (more than one title found)
+3 titles found for the year 2005:
+P-111-222-333	ACM Transactions on Algorithms     	ACM                      	2005 	5      	SEPTEMBER      	2         	
+P-111-111-333	ACM Transactions on Communications 	ACM                      	2005 	2      	JULY           	1         	
+B-222-333-111	Introduction to C Language         	Wiley                    	2005 	2      	James Foster   	1203324661	
+
+
+Test case 11: find titles by year (no title found)
+No titles found for the year 2019
+
+
+Test case 12: sort the titles by year
+Call Number 	Title                              	Publisher                	Year 	#Copies	Author/Month   	ISBN/Issue	
+P-111-111-111	IEEE Software                      	IEEE Computer Society    	1983 	1      	JUNE           	3         	
+P-111-222-333	ACM Transactions on Algorithms     	ACM                      	2005 	5      	SEPTEMBER      	2         	
+P-111-111-333	ACM Transactions on Communications 	ACM                      	2005 	2      	JULY           	1         	
+B-222-333-111	Introduction to C Language         	Wiley                    	2005 	2      	James Foster   	1203324661	
+B-222-111-111	Programming and Data Structures    	McGraw Hill              	2018 	5      	Brian Lang     	9878879310	
+B-222-222-222	Introduction to Java Programming   	Cengage                  	2018 	2      	G. Albert      	9876759310	
+P-222-111-333	IEEE Spectrum                      	IEEE Computer Society    	2020 	1      	SEPTEMBER      	1         	
+B-111-111-111	Introduction to Java Programming   	Pearson                  	2021 	10     	M. Savitch     	9876579310	
